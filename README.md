@@ -15,7 +15,7 @@ python3 Kingdee-erp_rce.py -u http://127.0.0.1:1111 单个url测试
 python3 Kingdee-erp_rce.py -c http://127.0.0.1:1111 cmdshell模式
 ![exp](./exp.jpg)
 
-python3 Kingdee-erp_rce.py -f url.txt 批量检测
+python3 Kingdee-erp_rce.py -f url.txt 批量检测 扫描会自动保存存在漏洞的url到vuln.txt
 ![poc](./poc.jpg)
 
 ## 免责声明
